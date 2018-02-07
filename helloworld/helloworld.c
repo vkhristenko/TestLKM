@@ -1,5 +1,5 @@
 #include <linux/module.h>
-#include <iinux/kernel.h>
+#include <linux/kernel.h>
 
 int init_module(void) {
     printk(KERN_INFO "Hello World!\n");
